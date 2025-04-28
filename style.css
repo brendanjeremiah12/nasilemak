@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+    width: 100%;
+  
+    h1 {
+      margin-bottom: 10px; /* Reduces space below the h1 */
+    }
+    p {
+      margin-top: 5px; /* Reduces space above the p */
+    }
+  
+    h2 {
+      margin-bottom: 10px;
+    }
+    p {
+      margin-top: 5px;
+    }
+  
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Arial", sans-serif;
+    }
+  
+    p {
+      font-family: "Arial", sans-serif;
+    }
+  
+    ul, ol {
+      font-family: "Arial", sans-serif;
+    }
+    .space {
+        margin-bottom: 100px; /* Creates an invisible gap */
+  
+      }
+  
+    .video-btn {
+      display: inline-block;
+      background-color: #4CAF50; /* Green background */
+      color: white; /* White text */
+      padding: 10px 20px; /* Padding for size */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold; /* Bold text */
+      border-radius: 2px; /* Rounded corners */
+      transition: background-color 0.3s ease; /* Smooth hover effect */
+    }
+  
+    .video-btn:hover {
+      background-color: #3c623e; /* Darker green on hover */
+    }
+   
+    }
+    footer {
+      font-family: "Arial", sans-serif;
+      text-align: center;
+      padding: 10px;
+      background-color: #222;
+      color: white;
+      position: relative;
+      width: 100%;
+    }
+  
+    footer a {
+      color: #ff5722;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  
+    footer a:hover {
+      text-decoration: underline;
+    }
